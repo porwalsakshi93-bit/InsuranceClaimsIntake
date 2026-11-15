@@ -64,3 +64,39 @@ PythonClaimsIntake/
 
 - **Spec-driven development** — requirements.md, design.md, and tasks.md defined the spec
 - **Tasks orchestration** — DAG-based task execution with dependency tracking via tasks.md
+
+
+## Screenshots & Demo
+
+### Home Page
+![Home Page](../screenshots/home-page.png)
+
+### File a Claim (4-step intake form)
+![Intake Form](../screenshots/intake-form.png)
+
+### Claim Summary
+![Claim Summary](../screenshots/claim-summary.png)
+
+### Search Claims
+![Search Claims](../screenshots/search-claims.png)
+
+> **To run a live demo:** follow the Setup steps above, then open http://localhost:8000 in your browser.
+> Use any of the pre-seeded policy numbers (POL-001 through POL-007) to file a claim.
+
+
+## Screenshots & Demo
+
+### Home Page
+![Home Page](../screenshots/home-page.png)
+
+### File a Claim (4-step intake form)
+![Intake Form](../screenshots/intake-form.png)
+
+### Claim Summary
+![Claim Summary](../screenshots/claim-summary.png)
+
+### Search Claims
+![Search Claims](../screenshots/search-claims.png)
+
+> **Live demo:** start the server with the setup steps above, then open http://localhost:8000.
+> Use any pre-seeded policy number (POL-001 through POL-007) to file a claim.
