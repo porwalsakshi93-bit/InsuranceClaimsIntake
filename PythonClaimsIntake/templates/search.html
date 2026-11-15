@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Claims — Insurance Claims Intake</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Search Claims</h1>
+        <nav><a href="/">Home</a> | <a href="/intake">Register Claim</a></nav>
+    </header>
+
+    <main>
+        <div class="search-form">
+            <input type="text" id="search-query" placeholder="Enter Claim ID or last name...">
+            <button type="button" onclick="performSearch()">Search</button>
+        </div>
+
+        <div id="search-results">
+            <p>Search by Claim ID (exact match) or last name (partial match, case-insensitive).</p>
+        </div>
+    </main>
+
+    <script type="module" src="/static/js/search.js"></script>
+</body>
+</html>

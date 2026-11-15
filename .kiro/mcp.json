@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "insurance-claims-db": {
+      "command": "py",
+      "args": [
+        "c:\\Users\\sgupta59\\OneDrive - Aegon\\InsuranceClaimsIntake\\PythonClaimsIntake\\mcp_server.py"
+      ],
+      "env": {
+        "DATABASE_PATH": "claims.db"
+      },
+      "description": "Custom Python MCP server for the Insurance Claims SQLite database. Exposes 5 tools: query_claims_db, list_claims, get_claim, list_policies, claims_summary. No uvx or Node required — pure Python (mcp SDK >= 2.0)."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Full Tests After Spec Task",
+      "trigger": "PostTaskExec",
+      "description": "Runs the full test suite after every spec task completes to verify nothing broke.",
+      "action": {
+        "type": "command",
+        "command": "cd \"c:\\Users\\sgupta59\\OneDrive - Aegon\\InsuranceClaimsIntake\\PythonClaimsIntake\" && python -m pytest --tb=short -v 2>&1 | tail -30",
+        "timeout": 120
+      }
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "TASK-01: Project files - requirements.txt, .gitignore, .env.example, all __init__.py": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953528786
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953553296
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953582746
+      }
+    ],
+    "TASK-02: db/schema.sql - policies + claims tables + 3 indexes": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953529636
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953601285
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953670468
+      }
+    ],
+    "TASK-03: db/database.py - init_db(), set_db(), get_db()": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953530737
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953687476
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954049718
+      }
+    ],
+    "TASK-04: db/seed.py - 7 sample policies, INSERT OR IGNORE": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953531301
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954060015
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954094408
+      }
+    ],
+    "TASK-05: db/claims_repo.py - generate_claim_id, insert_claim, find_claim_by_id, search_claims, find_policy_by_number": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953532189
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954100301
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954158870
+      }
+    ],
+    "TASK-06: tests/unit/test_claims_repo.py - insert, find, search, ID sequence, max 50": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953532464
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954164210
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954496392
+      }
+    ],
+    "TASK-07: models/claim.py - ClaimCreate, ClaimResponse, ClaimSearchResult, PolicyResponse": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953533140
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954503449
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954708226
+      }
+    ],
+    "TASK-08: middleware/validate.py - 5 validator functions returning {valid, message}": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953533455
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954712730
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954902893
+      }
+    ],
+    "TASK-09: tests/unit/test_validate.py - 3+ valid, 3+ invalid, boundary per validator": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953533897
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954908178
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793954989605
+      }
+    ],
+    "TASK-10: tests/property/test_validation_properties.py - 4 properties, 100 iterations each": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953534124
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955303933
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955431493
+      }
+    ],
+    "TASK-11: routers/claims.py - POST + 3x GET endpoints": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953534371
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955739363
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955855476
+      }
+    ],
+    "TASK-12: routers/policies.py - GET policy endpoint": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953534645
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955862080
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955913675
+      }
+    ],
+    "TASK-13: main.py - app, lifespan, routers, static, templates, page routes, 500 handler": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953534900
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793955919868
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956123963
+      }
+    ],
+    "TASK-14: tests/conftest.py - db_conn + client fixtures": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953535394
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956130193
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956222214
+      }
+    ],
+    "TASK-15: tests/integration/test_claims_api.py - all happy + error paths": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953535700
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956229984
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956578428
+      }
+    ],
+    "TASK-16: tests/integration/test_policies_api.py - 200 + 404": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953535969
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956583389
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956767741
+      }
+    ],
+    "TASK-17: static/js/validate.js + static/js/api.js": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953536397
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956773672
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956815776
+      }
+    ],
+    "TASK-18: templates/intake.html + static/js/intake.js (4-step form)": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953536818
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793956821849
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793957064178
+      }
+    ],
+    "TASK-19: templates/summary.html + static/js/summary.js": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953537166
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793957069166
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793957544273
+      }
+    ],
+    "TASK-20: templates/search.html + static/js/search.js": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953537758
+      },
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793957549704
+      }
+    ],
+    "TASK-21: templates/index.html (landing page)": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953538187
+      }
+    ],
+    "TASK-22: static/css/styles.css": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953538458
+      }
+    ],
+    "TASK-23: pytest --tb=short -v - all tests pass": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953539019
+      }
+    ],
+    "TASK-24: README.md - setup, seed, start, test commands + Kiro capabilities used": [
+      {
+        "executionId": "bab966ae-813f-425c-b041-681939c6b877",
+        "chatSessionId": "sess_bdba3dba-6cf6-4e2f-b5f5-b8eff9784540",
+        "timestamp": 1793953539641
+      }
+    ]
+  }
+}

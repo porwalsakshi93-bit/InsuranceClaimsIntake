@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register a Claim — Insurance Claims Intake</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Register a Claim</h1>
+        <nav><a href="/">Home</a> | <a href="/search">Search Claims</a></nav>
+    </header>
+
+    <main>
+        <!-- Progress indicator -->
+        <div class="step-progress">
+            <span class="step active" data-step="1">1. Customer</span>
+            <span class="step" data-step="2">2. Policy</span>
+            <span class="step" data-step="3">3. Incident</span>
+            <span class="step" data-step="4">4. Review</span>
+        </div>
+
+        <!-- Step 1: Customer Info -->
+        <div class="form-step" id="step-1">
+            <h2>Customer Information</h2>
+            <label>First Name *<input type="text" name="first_name" required></label>
+            <label>Last Name *<input type="text" name="last_name" required></label>
+            <label>Phone *<input type="tel" name="phone" placeholder="10-15 digits"></label>
+            <label>Email (optional)<input type="email" name="email"></label>
+            <div class="error-msg" id="step1-error"></div>
+            <button type="button" class="btn-next" onclick="goToStep(2)">Next</button>
+        </div>
+
+        <!-- Step 2: Policy Info -->
+        <div class="form-step hidden" id="step-2">
+            <h2>Policy Information</h2>
+            <label>Policy Number *<input type="text" name="policy_number" placeholder="POL-XXX" required></label>
+            <div class="error-msg" id="step2-error"></div>
+            <button type="button" class="btn-prev" onclick="goToStep(1)">Back</button>
+            <button type="button" class="btn-next" onclick="goToStep(3)">Next</button>
+        </div>
+
+        <!-- Step 3: Incident Info -->
+        <div class="form-step hidden" id="step-3">
+            <h2>Incident Information</h2>
+            <label>Incident Date *<input type="date" name="incident_date" required></label>
+            <label>Loss Type *
+                <select name="loss_type" required>
+                    <option value="">-- Select --</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Flood">Flood</option>
+                    <option value="Theft">Theft</option>
+                    <option value="Accident">Accident</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+            <label>Incident Description *<textarea name="incident_description" rows="4" required></textarea></label>
+            <label>Estimated Loss Amount (optional)<input type="number" name="estimated_loss_amount" min="0" step="0.01"></label>
+            <label>Incident Location (optional)<input type="text" name="incident_location"></label>
+            <div class="error-msg" id="step3-error"></div>
+            <button type="button" class="btn-prev" onclick="goToStep(2)">Back</button>
+            <button type="button" class="btn-next" onclick="goToStep(4)">Next</button>
+        </div>
+
+        <!-- Step 4: Review & Submit -->
+        <div class="form-step hidden" id="step-4">
+            <h2>Review &amp; Submit</h2>
+            <div id="review-section"></div>
+            <div class="error-msg" id="step4-error"></div>
+            <button type="button" class="btn-prev" onclick="goToStep(3)">Back</button>
+            <button type="button" class="btn-submit" onclick="submitForm()">Submit Claim</button>
+        </div>
+    </main>
+
+    <script type="module" src="/static/js/intake.js"></script>
+</body>
+</html>

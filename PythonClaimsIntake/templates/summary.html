@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Summary — Insurance Claims Intake</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body data-claim-id="{{ claim_id if claim_id else '' }}">
+    <header>
+        <h1>Claim Summary</h1>
+        <nav><a href="/">Home</a> | <a href="/intake">Register Claim</a> | <a href="/search">Search</a></nav>
+    </header>
+
+    <main>
+        <!-- Populated by summary.js. Starts visible with a loading message. -->
+        <div id="claim-summary">
+            <p>Loading claim details...</p>
+        </div>
+
+        <!-- Friendly error shown when the claim cannot be loaded (e.g. 404). -->
+        <div id="claim-error" class="error-msg hidden"></div>
+
+        <!-- Print button reveals the browser print dialog (AC-17).
+             Hidden until a claim is successfully loaded. -->
+        <button type="button" onclick="window.print()" class="btn-print hidden">Print</button>
+    </main>
+
+    <script type="module" src="/static/js/summary.js"></script>
+</body>
+</html>
